@@ -1,8 +1,7 @@
-function Message(){
-    const name = "chandu";
-    if (name)
-        return <h1>Hii {name}</h1>
-    return <h1>Hii</h1>    
+function Message() {
+  const name = "Chandralekha";
+  if (name) return <p>Hii {name}</p>;
+  return <p>Hii user</p>;
 }
 
-export default Message
+export default Message;
