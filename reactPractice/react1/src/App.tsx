@@ -9,14 +9,18 @@ import Header from "./Component/Header";
 import Menu from "./Component/Menu";
 import Content from "./Component/Content";
 import Footer from "./Component/Footer";
+import FavColor from "./Component/FavColor";
 
 function App() {
   return (
     <div>
       <Header />
-      <Menu />
+      <Menu
+        menuItems={["Home", "About us", "Our work", "Gallery", "Contact us"]}
+      />
       <section>
-        <Message />
+        <Message text="This is a property" />
+        <FavColor />
         <Content />
       </section>
       <Footer />
