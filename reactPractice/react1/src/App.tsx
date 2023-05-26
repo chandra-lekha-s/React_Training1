@@ -1,6 +1,9 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
-import "./App.css";
+// import "./App.css";
+
+import "bootstrap/dist/css/bootstrap.css";
+
 import Message from "./Component/Message";
 import Header from "./Component/Header";
 import Menu from "./Component/Menu";
@@ -9,15 +12,15 @@ import Footer from "./Component/Footer";
 
 function App() {
   return (
-    <section>
-      <Header></Header>
-      <Menu></Menu>
+    <div>
+      <Header />
+      <Menu />
       <section>
-        <Message></Message>
-        <Content></Content>
+        <Message />
+        <Content />
       </section>
-      <Footer></Footer>
-    </section>
+      <Footer />
+    </div>
   );
 }
 
