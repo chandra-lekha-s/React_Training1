@@ -19,7 +19,7 @@ function App() {
         menuItems={["Home", "About us", "Our work", "Gallery", "Contact us"]}
       />
       <section>
-        <Message text="This my newx property" />
+        <Message text="This my new property" />
         <FavColor />
         <Content />
       </section>
