@@ -17,6 +17,4 @@ function Menu() {
   );
 }
 
-// onClick={() => console.log(menu + " - " + index)
-
 export default Menu;
