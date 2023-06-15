@@ -1,0 +1,116 @@
+#container{
+    width: 40%;
+    margin: 5% 30%;
+    color: rgb(45, 86, 164);
+    font-size: 20px;
+}
+#container button{
+    background-color: rgb(45, 86, 164);
+    color: white;
+}
+.header{
+    background-color: rgb(45, 86, 164);
+    color: white;
+    padding: 10px 15px ;
+    font-size: 26px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+.mynavbar{
+    display: flex; 
+    /* background-color: aqua; */
+    border:  2px solid rgba(0, 0, 0, 0.21);
+    border-radius: 5px;
+    padding: 10px 15px ;
+    font-size: 18px;
+}
+.mynavbar li, .mynavbar button{
+    color:rgb(45, 86, 164);
+    background-color: white;
+    border: none;
+    list-style: none;
+    margin: 0 10px;
+    padding: 0 2px;
+}
+.mynavbar li:hover{
+    color: rgb(11, 50, 122);
+}
+.mainTable{
+    color: black; 
+    margin: 1% 15%;
+    width: 70%;
+}
+.mainTable thead tr th{
+    border-bottom: 2px solid rgb(25, 50, 96);
+}
+.mainTable td {
+    width: auto;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid rgba(44, 42, 42, 0.361);
+}
+.displayTable{
+    color: black; 
+    margin: 3% auto 3%;
+    width: auto;
+    /* padding: 10px 10px 0px;  */
+}
+.displayTable thead, .mainTable thead tr th{
+    /* color: cornflowerblue; */
+    
+    color:  rgb(45, 86, 164);
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    height: 70px;
+}
+.displayTable td {
+    width: 100px;
+    padding: 5px;
+    /* border: 1px solid black; */
+}
+.actionButtons{
+    padding: 10px 50px;
+    margin: 0px 10px;
+    color: white;
+    background-color: rgb(44, 83, 156);
+    /* color: rgb(16, 59, 138); */
+    border: 2px solid rgb(45, 86, 164); 
+    border-radius: 6px;
+    /* background-color: white; */
+}
+
+.actionButtons:hover{
+    color: white;
+    background-color: rgb(19, 55, 121);
+    /* background-color:rgb(45, 86, 164) ; */
+}
+.addButton{
+    color: white;
+    float: right;
+    border: 1px solid rgb(45, 86, 164) ;
+    background-color: rgb(45, 86, 164);
+    margin: 0% 0%;
+}
+
+.addButton:hover{
+    background-color: rgb(11, 50, 122);
+}
+
+.headingDiv{
+    width: 100%;
+    margin: 3% 2% 2%;
+    display: flex;
+    /* background-color:antiquewhite; */
+}
+.headingDiv h4{
+    color:  rgb(45, 86, 164);
+    text-align: center;
+    float: left;
+    font-size: 35px;
+    font-weight: 600;
+    padding: 0 50% 0 5%;
+}
+.headingDiv button{
+    float: right;
+}
