@@ -1,0 +1,83 @@
+# React
+- Open source JS library for building user interfaces
+- Not Framwork
+- Rich ecosystem
+- Created and maintained by Facebook
+- Component Based Architecture
+- Reusable code
+- React is declarative 
+---
+### Folder Structure
+- package.json - caontains dependencies and scripts
+- package-lock.json - ensure consistent installation of dependencies
+- File flow: index.html -> main.tsx -> app.tsx
+---
+### Component
+- Part of UI
+- Resuable
+- Types : 
+  - functional component
+    - Simple JS functions 
+    - return html elements
+    - Accept input as properties and returns HTML
+    - Absence of 'this' keyword
+    - Mainly responsible for UI
+    - Solution without using state
+    - Has state hooks and provide life cycle hooks
+  - class component
+    - Class extending React.Component class
+    - Render() returns the HTML
+    - Accept input as properties, contain private states and returns HTML
+    - More feature rich
+    - Maintain their own private data known as state
+    - Complex UI logic
+    - Provide life cycle hooks
+- Export and import of components
+- Export:
+  - Default export
+    - Import with any name
+    - export default Trial1;
+    - import Trial1 from "./components/Trial1";
+    - import MyCustomName from "./components/Trial1";
+    - return < Trial1 />;
+    - return < MyCustomName />;
+  - Named export
+    - Import with defined name in { }
+    - export const Trial1 = () => < p>Hello< /p>;
+    - import { Trial1 } from "./components/Trial1";
+    - return < Trial1 />;
+---
+### JSX
+- JavaScript XML (JSX)
+- Extension to JS language syntax
+- JSX qultimately transpiles to pure JS which is understood by browser 
+---
+### Props
+- Optional input that the component can accept 
+- Object that contains attributes and their values which have been passed from their parent component
+- Props are immutable
+- Props are passed to the component
+- They are the function parameters
+- In Functional components : props
+- In Class components : this.props
+- Destructuring props :
+  - const {prop1, prop2} = this.props
+- < MyTag attribute = "value" / >
+- < MyTag > children props < / MyTag > 
+---
+### State
+- Object that is privately maintained by the component
+- Stae is managed within the component
+- Variables are declared in the function body 
+- In Functional components : useState Hook
+- In Class components : this.state
+- State is mutable
+- Never directly change state value instead do it via setState() else the UI is not re-rendered
+- setState(value updation, callback function)
+- setState is an asynchronous method
+--- 
+### Event Handling
+- Event handler must be a function and not a function call
+- ex: 
+  - onClick = {clickHandle}   - Function      - Triggered on click
+  - onClick = {clickHandle()} - Function call - Triggered when loaded
